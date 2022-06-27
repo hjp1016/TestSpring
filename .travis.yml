@@ -23,7 +23,7 @@ deploy:
   - provider: s3
     access_key_id: $AWS_ACCESS_KEY AKIA3CHWVKLTNYMBODNR
     secret_access_key: $AWS_SECRET_KEY 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
-    bucket: springboot-webservice-build
+    bucket: studyproject-springboot-web
     region: ap-northeast-2
     skip_cleanup: true
     acl: private
@@ -33,7 +33,7 @@ deploy:
   - provider: codedeploy
     access_key_id: $AWS_ACCESS_KEY AKIA3CHWVKLTNYMBODNR
     secret_access_key: $AWS_SECRET_KEY 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
-    bucket: springboot-webservice-build # S3 버킷
+    bucket: studyproject-springboot-web # S3 버킷
     key: TestSpring.zip # 빌드 파일을 압축해서 전달
     bundle_type: zip
     application: codedeploy # 웹 콘솔에서 등록한 CodeDeploy 어플리케이션
