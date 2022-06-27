@@ -22,7 +22,7 @@ before_deploy:
 deploy:
   - provider: s3
     access_key_id: $AWS_ACCESS_KEY AKIA3CHWVKLTNYMBODNR
-    secret_access_key: $AWS_SECRET_KEY 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
+    secret_access_key: $AWS_SECRET_KEY EK68NEJ5dpVHdb8QOb7QLFtTOo0v9Xt4tSvTt4hj1
     bucket: studyproject-springboot-web
     region: ap-northeast-2
     skip_cleanup: true
