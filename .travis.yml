@@ -15,9 +15,9 @@ cache:
 script: "./gradlew clean build"
 
 before_deploy:
-  - zip -r StudyProject-springboot-web
+  - zip -r TestSpring
   - mkdir -p deploy
-  - mv StudyProject-springboot-web.zip deploy/StudyProject-springboot-web.zip
+  - mv TestSpring.zip deploy/TestSpring.zip
 
 deploy:
   - provider: s3
