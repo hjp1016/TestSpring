@@ -6,8 +6,6 @@ branches:
   only:
     - master
 
-before_script:
-  - cd {TestSpring}/
 # Travis CI 서버의 Home
 cache:
   directories:
