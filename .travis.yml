@@ -15,7 +15,7 @@ cache:
 script: "./gradlew clean build"
 
 before_deploy:
-  - zip -r TestSpring
+  - zip -r TestSpring *
   - mkdir -p deploy
   - mv TestSpring.zip deploy/TestSpring.zip
 
