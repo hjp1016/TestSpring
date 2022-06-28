@@ -21,8 +21,8 @@ before_deploy:
 
 deploy:
   - provider: s3
-    access_key_id: $AWS_ACCESS_KEY AKIA3CHWVKLTOHW7ZW4X
-    secret_access_key: $AWS_SECRET_KEY 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
+    access_key_id: $AWS_ACCESS_KEY AKIA3CHWVKLTNSK32G7E
+    secret_access_key: $AWS_SECRET_KEY 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
     bucket: studybuild # S3 버킷
     region: ap-northeast-2
     skip_cleanup: true
@@ -31,8 +31,8 @@ deploy:
     #wait-until-deployed: true
 
   - provider: codedeploy
-    access_key_id: $AWS_ACCESS_KEY AKIA3CHWVKLTOHW7ZW4X
-    secret_access_key: $AWS_SECRET_KEY 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
+    access_key_id: $AWS_ACCESS_KEY AKIA3CHWVKLTNSK32G7E
+    secret_access_key: $AWS_SECRET_KEY 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
     bucket: studybuild # S3 버킷
     key: TestSpring.zip # 빌드 파일을 압축해서 전달
     bundle_type: zip
