@@ -21,7 +21,7 @@ before_deploy:
 
 deploy:
   - provider: s3
-    access_key_id: $AWS_ACCESS_KEY AKIA3CHWVKLTNSK32G7E
+    access_key_id: $AWS_ACCESS_KEY AKIA3CHWVKLTNSK32G7Ea
     secret_access_key: $AWS_SECRET_KEY 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
     bucket: studybuild # S3 버킷
     region: ap-northeast-2
