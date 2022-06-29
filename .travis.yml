@@ -6,7 +6,7 @@ branches:
   only:
     - master
 
-# Travis CI 서버의 Home 캐시 내용지웠음 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+# Travis CI 서버의 Home 캐시 내용지웠음 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 cache:
   directories:
     - '$HOME/.m2/repository'
