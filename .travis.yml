@@ -2,12 +2,11 @@ language: java
 jdk:
   - openjdk8
 
-git:
-  lfs_skip_smudge: true
+
 
 branches:
   only:
-    - master
+    - main
 
 # Travis CI 서버의 Home 캐시 내용지웠음 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 cache:
